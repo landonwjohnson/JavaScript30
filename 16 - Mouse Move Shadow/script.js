@@ -4,7 +4,7 @@ const withText = document.querySelector("p");
 const landonjohnsonText = hero.querySelector("h2");
 
 
-const walk = 35; // 100px;
+const walk = 50; // 100px;
 
 function shadow(e) {
     const { offsetWidth: width, offsetHeight: height } = hero;
