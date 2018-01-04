@@ -11,27 +11,7 @@ body{
     overflow: hidden;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    align-items: center;
-    height: 50px;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.58);
-    color: white;
-}
 
-.social-wrapper{
-    display: flex;
-    width: 20%;
-    justify-content: space-around;
-    margin-left: 10px;
-}
-
-.g-ytsubscribe{
-    z-index: 1;
-}
 
 .hero {
     margin-top: 100px;

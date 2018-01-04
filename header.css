@@ -1,0 +1,43 @@
+a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.58);
+    color: white;
+}
+
+.social-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    align-items: center;
+    white-space: nowrap;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: none;
+    height: 50px;
+    align-items: center;
+}
+
+
+li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.backBtn{
+    margin-left: 20px;
+}
