@@ -2,16 +2,14 @@
 
 body{
     height: 100vh;
-    width: 100vw;
     padding: 0px;
     margin: 0px;
-    
-    background: #2C3E50;
+    font-family: 'Oswald', sans-serif;
     -webkit-font-smoothing: antialiased;
     overflow: hidden;
+    background: radial-gradient(500px 500px,
+      #2C3E50 50%, rgb(35, 50, 65) 100%);
 }
-
-
 
 .hero {
     margin-top: 100px;
@@ -36,7 +34,6 @@ body{
 }
 
 .hover-text-container{
-    font-family: 'Oswald', sans-serif;
     z-index: 3;
     height: 100%;
     margin-right: 40px;
@@ -56,7 +53,7 @@ h1 {
     text-transform: uppercase;
     user-select: none;
     line-height: 10rem;
-    z-index: 1;
+    z-index: 2;
 }
 
 p{
@@ -67,7 +64,7 @@ p{
     position: relative;
     transform:  rotate(79.5deg) translate(120px, -440px);
     text-transform: uppercase;
-    z-index: 1;
+    z-index: 0;
     user-select: none;
 }
 
@@ -83,5 +80,7 @@ h2{
     user-select: none;
     white-space: nowrap;
 }
+
+
 
 
