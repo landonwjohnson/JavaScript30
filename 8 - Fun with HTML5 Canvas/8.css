@@ -2,3 +2,13 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+.container{
+    max-height: calc(100vh - 50px);
+    overflow: hidden;
+}
+
+canvas{
+    height: calc(100vh - 50px);
+    width: 100%;
+}
